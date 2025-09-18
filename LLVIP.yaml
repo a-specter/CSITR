@@ -1,0 +1,11 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train_rgb: /media/jumper/8d20e136-27ef-47d4-b13b-e8606271068b/APP/other/multispectral-yolov8-transformer/LLVIP/rgb/train/images
+val_rgb: /media/jumper/8d20e136-27ef-47d4-b13b-e8606271068b/APP/other/multispectral-yolov8-transformer/LLVIP/rgb/val/images
+train_ir: /media/jumper/8d20e136-27ef-47d4-b13b-e8606271068b/APP/other/multispectral-yolov8-transformer/LLVIP/ir/train/images
+val_ir: /media/jumper/8d20e136-27ef-47d4-b13b-e8606271068b/APP/other/multispectral-yolov8-transformer/LLVIP/ir/val/images
+
+# number of classes
+nc: 1
+
+# class names
+names: ['person']

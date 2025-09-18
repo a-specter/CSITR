@@ -1,0 +1,8 @@
+train_rgb: /media/jumper/8d20e136-27ef-47d4-b13b-e8606271068b/APP/other/multispectral-object-detection-main/aligned/align/train/rgb/images
+val_rgb: /media/jumper/8d20e136-27ef-47d4-b13b-e8606271068b/APP/other/multispectral-object-detection-main/aligned/align/val/rgb/images
+train_ir: /media/jumper/8d20e136-27ef-47d4-b13b-e8606271068b/APP/other/multispectral-object-detection-main/aligned/align/train/ir/images
+val_ir: /media/jumper/8d20e136-27ef-47d4-b13b-e8606271068b/APP/other/multispectral-object-detection-main/aligned/align/val/ir/images
+
+nc: 3
+
+names: ['person','car','bicycle']
